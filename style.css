@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url('poster.jpg');
+        background-size: cover;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #videoBG {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.front {
+    position: relative;
+    display: flex;
+    /* padding-top: 15rem; */
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: color-dodge;
+    height: 100vh;
+    width: 100vw;
+}
