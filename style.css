@@ -47,7 +47,7 @@
 .front {
     position: relative;
     display: flex;
-    /* padding-top: 15rem; */
+    padding-right: 15rem;
     align-items: center;
     justify-content: center;
     mix-blend-mode: difference;
