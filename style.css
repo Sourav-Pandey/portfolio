@@ -65,7 +65,7 @@ body {
 }
 
 .front {
-    position: relative;
+    position: absolute;
     display: flex;
     /* padding-top: 15rem; */
     align-items: center;
