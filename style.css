@@ -12,7 +12,6 @@ body {
 
 .background {
     position: absolute;
-    z-index:-10;
 }
 .videobg
 {
