@@ -16,6 +16,8 @@ body {
 }
 .videobg
 {
+    width:100%;
+    height:auto;
     overflow:hidden;
 }
 @media (min-aspect-ratio: 16/9) {
