@@ -12,7 +12,11 @@ body
     height: 100vh;
     position: absolute;
 }
-
+.ri
+{
+    height:100%;
+    width:100%;
+}
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
         width: 100%;
