@@ -1,17 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
-body
-{
-    background:black;
-    overflow-x:hidden;
+
+body {
+    background: black;
+    overflow-x: hidden;
+    font-family: 'Rye', cursive;
 }
+
 .background {
     width: 100vw;
     height: 100vh;
     position: absolute;
 }
+
+#videobg {
+    width: inherit;
+    height: inherit;
+}
+
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
         width: 100%;
@@ -35,6 +44,7 @@ body
         height: 100%;
     }
 }
+
 @media screen and (orientation: portrait) {
     img.ri {
         max-width: 90%;
@@ -50,10 +60,72 @@ body
 .front {
     position: relative;
     display: flex;
-    padding-right: 15rem;
+    /* padding-top: 15rem; */
     align-items: center;
     justify-content: center;
     mix-blend-mode: difference;
     height: 100vh;
     width: 100vw;
+}
+
+h1 {
+    font-size: 5vw;
+    color: #39FF14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.x p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+}
+
+.para {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background: black;
+}
+
+.para:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+
+.para:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.para:before,
+.para:after {
+    background: linear-gradient(200deg, #89ff00, black, #00bcd4);
+}
+
+.x {
+    height: 100vh;
+    padding-top: 9rem;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    position: relative;
+    color: white;
+    ;
 }
