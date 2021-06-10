@@ -16,11 +16,6 @@ body {
     position: absolute;
 }
 
-#videobg {
-    width: inherit;
-    height: inherit;
-}
-
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
         width: 100%;
